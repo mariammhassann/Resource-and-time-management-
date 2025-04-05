@@ -1,0 +1,69 @@
+/* General reset and layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f172a;
+    color: white;
+    padding: 2rem;
+  }
+  
+  /* Section styling */
+  .templates {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .templates h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  .templates .subtitle {
+    text-align: center;
+    color: #cbd5e1;
+    margin-bottom: 2rem;
+  }
+  
+  /* Card styling */
+  .template-card {
+    display: flex;
+    align-items: center;
+    background-color: #1e293b;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .template-card:hover {
+    background-color: #273449;
+  }
+  
+  .template-card img {
+    width: 48px;
+    height: 48px;
+    margin-right: 1rem;
+  }
+  
+  .template-content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .template-content a {
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+  
+  .template-content a:hover {
+    text-decoration: underline;
+  }
+  
